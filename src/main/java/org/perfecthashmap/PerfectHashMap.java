@@ -10,8 +10,8 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * <p>Hashmap that can be used for fast <code>get</code> and <code>contains</code> operations if the
- * set of keys is finite, known in advance and the hashcodes for the keys are collision free.</p>
+ * <p><code>PerfectHashmap</code> is optimized for fast <code>get</code> and <code>contains</code> operations.
+ * It is required that the set of keys is finite, known in advance and the hashcodes for the keys are collision free.</p>
  * <p>Only use this implementation if your application is latency sensitive.</p>
  *
  * @author Nicholas Poul Schultz-M¿ller
